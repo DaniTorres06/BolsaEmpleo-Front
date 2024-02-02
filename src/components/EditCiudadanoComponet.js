@@ -64,12 +64,7 @@ const EditCiudadanoComponet = () => {
   return (
     <div>
       <h2>Editar Ciudadano</h2>
-      <form onSubmit={handleSubmit}>
-        <label>
-          tipoDocumento:
-          <input type="text" value={tipoDocumento} onChange={handleNombreChange} />
-        </label>
-        <br />
+      <form onSubmit={handleSubmit}>        
         <label>
         cedula:
           <input type="text" value={nuevoApellido} onChange={handleApellidoChange} />
@@ -85,16 +80,7 @@ const EditCiudadanoComponet = () => {
           <input type="text" value={nuevoApellido} onChange={handleApellidoChange} />
         </label>
         <br />
-        <label>
-        profesion:
-          <input type="text" value={profesion} onChange={handleNombreChange} />
-        </label>
-        <br />
-        <label>
-        aspiracionSalarial:
-          <input type="text" value={aspiracionSalarial} onChange={handleApellidoChange} />
-        </label>
-        <br />
+        
         <button type="submit">Guardar cambios</button>
       </form>
     </div>
