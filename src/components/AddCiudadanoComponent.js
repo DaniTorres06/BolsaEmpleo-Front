@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 
-
-
 const AddCiudadanoComponent = () => {
 
   const [datosUsuario, setDatosUsuario] = useState({
